@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "enter username:$USERNAME"
-read USERNAME
+read -s USERNAME
 echo "enter passeord:$PASSWORD"
-read PASSWORD
+read -s PASSWORD
 echo "username:$USERNAME,password:$PASSWORD"
+
