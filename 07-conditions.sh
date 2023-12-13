@@ -1,9 +1,8 @@
     #!/bin/bash
 
-    NUMNER=$1
+    NUMBER=$1
 
-    if[ $NUMNER -gt 100 ]
-
+    if [ $NUMBER -gt 100 ]
     then 
        echo "given number greater than 100"
     else
