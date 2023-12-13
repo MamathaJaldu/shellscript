@@ -1,6 +1,6 @@
 #!/bin/bash
-ID=(id -u)
-TIMESTAMP=$(date+%H:%M:%S)
+ID=$(id -u)
+TIMESTAMP=$(date +%H:%M:%S)
 R="\e[31m"
 G="\e[32m"
 N="\e[0m"
@@ -11,10 +11,10 @@ echo "script is started to executing: $TIMESTAMP"
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
-    echo "ERROR: $2.. is $R failed $N"
+    echo -e "ERROR: $2.. is $R failed $N"
     exit 1
     else
-    echo "$2  is $G success $N"
+    echo -e "$2  is $G success $N"
     fi    
 }
 
