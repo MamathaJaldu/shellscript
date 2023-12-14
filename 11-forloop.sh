@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ID=$(id -u)
-TIMESTAMP=$(date+%F:%H:%M:%S)
+TIMESTAMP=$(date +%F:%H:%M:%S)
 R="\e[31m"
 G="\e[32m"
 N="\e[0m"
@@ -30,6 +30,8 @@ for package in $@
        yum install $package -y
        VALIDATE $? "install $package"
     else
-       echo "$package already installed"   
+       echo "$package already installed" 
+
+     fi    
   done
 
