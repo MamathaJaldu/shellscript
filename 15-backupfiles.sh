@@ -10,8 +10,8 @@ DESTINATION_DIR="/tmp/logfiles/backup-$Backuptime.tar.gz
 
 if [ ! -d $SOURCE_DIR ]
 then 
-  echo "source directory $SOURCE_DIR does not exist" 
+  echo "source directory  does not exist" 
 fi
 
-tar -cvzf $DESTINATION_DIR $SOURCE_DIR 
+tar -cpzf $DESTINATION_DIR $SOURCE_DIR 
 
