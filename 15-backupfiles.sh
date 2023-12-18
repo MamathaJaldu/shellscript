@@ -4,7 +4,7 @@ Backuptime='date+%b-%d-%y'
 
 SOURCE_DIR="/tmp/logfiles"
 
-DESTINATION_DIR="/tmp/logfiles/backup-$Backuptime.tar.gz
+DESTINATION_DIR="/tmp/logfiles/backup-$Backuptime
 
 # check source dir exist or not
 
