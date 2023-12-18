@@ -14,5 +14,4 @@ then
   exit 1
 fi
 
-tar -czvf "$DESTINATION_DIR" $SOURCE_DIR 
-
+tar -czvf $DESTINATION_DIR $SOURCE_DIR 
