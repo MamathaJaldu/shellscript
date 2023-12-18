@@ -2,9 +2,9 @@
 
 Backuptime='date+%b-%d-%y'
 
-SOURCE_DIR="/tmp/logfiles"
+SOURCE_DIR="home/centos/tmp/logfiles"
 
-DESTINATION_DIR="/tmp/logfiles/backup-$Backuptime
+DESTINATION_DIR="home/centos/tmp/logfiles/backup-$Backuptime
 
 # check source dir exist or not
 
