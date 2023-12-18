@@ -13,5 +13,5 @@ then
   echo "source directory  does not exist" 
 fi
 
-tar -cpzf $DESTINATION_DIR $SOURCE_DIR 
+tar -czvf "$DESTINATION_DIR" "$SOURCE_DIR" 
 
