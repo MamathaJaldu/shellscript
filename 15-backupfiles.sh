@@ -4,7 +4,7 @@ Backuptime='date+%b-%d-%y'
 
 SOURCE_DIR="home/centos/tmp/logfiles"
 
-DESTINATION_DIR="home/centos/tmp/logfiles/backup-$Backuptime
+DESTINATION_DIR="home/centos/tmp/logfiles/backup-$Backuptime.tar.gz
 
 # check source dir exist or not
 
